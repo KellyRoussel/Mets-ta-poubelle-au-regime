@@ -1,0 +1,71 @@
+{
+  "id": 2,
+  "name": "Theme 2",
+  "color": "0xFFE43E32",
+  "homeText": "HomeText",
+  "resources": [
+    {"name": "Resource 1" , "link": "link 1"},
+    {"name": "Resource 2", "link": "link 2"}
+  ],
+  "personal_challenges": [
+    "personal_challenge_1",
+    "personal_challenge_2",
+    "personal_challenge_3"
+  ],
+  "team_challenges": [
+    "team_challenge_1",
+    "team_challenge_2",
+    "team_challenge_3"
+  ],
+  "icebreakers": [
+    {"title": "Icebreaker 1",
+      "summary": "Summary 1",
+      "description": "Description 1",
+      "range_n_participants": "n-n+y",
+      "range_n_minutes": "n-n+y'"},
+
+    {"title": "Icebreaker 2",
+      "summary": "Summary 2",
+      "description": "Description 2",
+      "range_n_participants": "n-n+y",
+      "range_n_minutes": "n-ny'"}
+  ],
+  "quizzs":[
+    {"subject": "Subject",
+      "questions": [{
+        "question": "Question 1",
+        "answers": [{
+          "answer": "answer 1", "valid": false},
+          {"answer": "answer 2", "valid": true},
+          {"answer": "answer 3", "valid": false}
+        ]
+      },
+        {
+          "question": "Question 2",
+          "answers": [{
+            "answer": "answer 1", "valid": false},
+            {"answer": "answer 2", "valid": true},
+            {"answer": "answer 3", "valid": false}
+          ]
+        }
+      ]}],
+  "survey": [
+    {"type": "closed",
+      "question": "Question 1",
+      "compulsory":true,
+      "answers": ["answer 1", "answer 2", "answer 3"],
+      "multiple_answers": true
+    },
+    {"type": "closed",
+      "question": "Question 2",
+      "compulsory":true,
+      "answers": ["answer 1", "answer 2", "answer 3"],
+      "multiple_answers": false
+    },
+    {"type": "open",
+      "question": "Question 3",
+      "compulsory":false
+    }
+  ]
+
+}
